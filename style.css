@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-left:10px;
+    margin-right: 10px;
+    position: absolute;
+
+}
+
+header nav{
+    background-color:#0D5C63;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color:#F2F2F2;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:#F2F2F2;
+}
+
+.info{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.info img{
+    width: 160px;
+    height:160px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+
+.contactinfo{
+    padding-top: 60px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contactinfo h2{
+    color:#0D5C63;
+    font-weight: bolder;
+    word-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px rgb(148, 151, 153);
+    margin-left: 30px;
+    font-size: xx-large;
+}
+.contactinfo p i{
+    color:#191970;
+    font-size: x-large;
+    margin-right: 8px;
+}
+.contactinfo p{
+    padding:15px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    color:#4C4A48;
+    margin-left: 30px;
+    font-size: large;
+    line-height: 10px;
+    
+}
+.contactinfo p span{
+    font-size: larger;
+    padding: 10px;
+}
+
+.summary {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.summary h2{
+    color: #2F4F4F;
+    width:100%;
+    background-color: #B0C4DE;
+    font-size: xx-large;
+}
+
+.summary ul li{
+    padding:10px 0px;
+    color: #4C4A48; 
+    font-weight: bolder;
+    font-size: large;
+}
+.summary ul li::before{
+    content: '☞';
+    font-size: x-large;
+    padding-right: 20px;
+    color: #e58e26;
+}
+.summary ul li::selection{
+    background-color: rgb(204, 181, 140);
+}
+
+.techstack{
+    margin-left: 30px;
+}
+.techstack h4{
+    color: #2F4F4F; 
+    font-weight: bolder;
+    background-color: #B0C4DE;
+    width:100%;
+    margin-top: 20px;
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+.techstack h4::before{
+    content:'🖥️';
+    font-size: x-large;
+}
+.techstack h4::after{
+    content:'🖥️';
+    font-size: x-large;
+}
+
+.techstack h4 table,tbody,tr,td{
+    background-color: #FFDAB9;
+}
+.techstack h4 table tbody{
+    margin-top:50px;
+    
+}
+.techstack h4 table tbody td{
+    font-size: x-large;
+}
+
+
+.education{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.education h4{
+    color: #2F4F4F; 
+    font-weight: bolder;
+    margin-top: 20px;
+    background-color: #B0C4DE;
+    width:100%;
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+.education h4::before{
+    content:'📚';
+    font-size: x-large;
+}
+.education h4::after{
+    content: '📚';
+    font-size: x-large;
+}
+
+.education h4 table,thead,th{
+    background-color: #D8BFD8;
+    font-size: x-large;
+}
+.education h4 table,tbody,td{
+    font-size: x-large;
+}
+.education table,th,tr,td{
+    border: 1px solid #0D5C63;
+    border-collapse: collapse;
+
+}
+
+.education table th, td{
+    padding: 10px;
+}
+
+
+    
+#contme{
+    font-size: x-large;
+    text-decoration: underline;
+    border: 1px solid black;
+    background-color: #191970;
+    color:#F2F2F2;
+    text-align: right;
+    margin-top: 30px;   
+}
+
+.personalinfo{
+margin-top: 30px;
+}
+.personalinfo h4{
+    font-weight: bold;
+    width: 100%;
+    /* text-align: center; */
+    font-size: xx-large;
+    text-decoration: underline;
+    font-style: italic;
+    margin-left: 30px;
+    color: #2F4F4F; 
+    font-weight: bolder;
+    background-color: #B0C4DE;
+    padding: 5px;
+}
+.personalinfo h4::before{
+    content: '👉';
+    font-size: larger;
+}
+.personalinfo h4::after{
+    content:'👈';
+    font-size: larger;
+}
+.personalinfo img{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.personalinfo figure figcaption{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 80px;
+}
+.personalinfo p{
+    font-size: large;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.personalinfo p span{
+    font-weight: bold;
+    font-size: large;
+}
+
+.family{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.family h3{
+    color: #2F4F4F; 
+    font-weight: bolder;
+    background-color: #B0C4DE;
+    font-size: large;
+    padding: 5px;
+}
+.family h3::before{
+    content: '👨‍👩‍👦';
+    font-size: large;
+}
+.family h3::after{
+    content: '👨‍👩‍👦';
+    font-size: large;
+}
+.family ul li{
+    font-size: large;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.family ul li::before{
+    content: '✏️';
+    font-size: large;
+    margin-right: 7px;
+}
+
+.family summary{
+    font-size: large;
+    font-weight: bold;
+}
+
+.hobbies{
+margin-left: 20px;
+margin-top: 10px;
+}
+.hobbies h3{
+    color: #2F4F4F; 
+    font-weight: bolder;
+    background-color: #B0C4DE;
+    font-size: large;
+    padding: 5px;
+}
+.hobbies h3::before{
+    content: '👩‍🎨';
+    font-size: large;
+}
+.hobbies h3::after{
+    content:'👩‍🎨';
+    font-size: large;
+}
+.hobbies ol li{
+    font-size: large;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.hobbies ol li::before{
+    content: '✏️';
+    font-size: large;
+    margin-right: 7px;
+}
